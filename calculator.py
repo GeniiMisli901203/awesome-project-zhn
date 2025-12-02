@@ -1,7 +1,7 @@
 import math
 
 def get_area(a, b):
-    return a * b  # ОШИБКА: для прямоугольного треугольника должно быть a*b/2
+    return a * b / 2  # ИСПРАВЛЕНО
 
 def get_hypotenuse(a, b):
     return math.sqrt(math.pow(a, 3) + math.pow(b, 3))
